@@ -1,0 +1,134 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+h2{margin: 1rem;}
+p{color: #5c5a5a;}
+a{color: black;text-decoration: none;transition: .5s ease-in-out;}
+a:hover{color: #eb0028;}
+.red{color: #eb0028;display: block;}
+.row{
+    justify-content: space-between;
+    max-width:1000px ;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.card{border: none;margin-top: 2rem;}
+img{width:80%;margin: 0 auto;transition: .5s ease-in-out;}
+
+
+/************navbar****************/
+.navbar{padding: 1.2rem;}
+.navbar a{
+    color: black;
+    font-weight: bolder;
+}
+section{text-align: center}
+.flag{background: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/flags/4x3/us.svg);}
+
+
+/******************slider**********************/
+
+.slide-prev-next{
+    border:.05rem solid #ddd;
+    border-radius: 15rem;
+    box-shadow: -.1rem .1rem .1rem #ddd;
+    padding: .15rem .2rem;
+}
+
+.slide-prev-next:hover{
+    background-color: #eb0028;
+
+}
+.carousel-caption{
+    
+    position: absolute;
+    right: 5%;
+    bottom: 1.25rem;
+    left:40%;
+    top:15%;
+    width:50vw;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.carousel-caption p{padding: 0;color: white;}
+.carousel-inner h5{font-size: 2.8rem;}
+.btn-phonoSite{
+    color: white;
+    border: .1rem solid white;
+    background-color: #000000b6;
+    border-radius: 5rem;
+    padding: .75rem 3rem;
+}
+
+
+/*********DIFFERENT**************/
+.deffernt{padding: 2rem;}
+.deffernt img:hover{transform: scale(.9);}
+
+/**********POSSIBILITIES********************/
+
+.possibilities .col-md-2:nth-of-type(2n){
+margin-top: 6rem;}
+
+/***********innovative***************************/
+.innovative .card-body {
+    display: flex;
+    font-size: .8rem;
+    height: 15vh;
+}
+
+
+@media (min-width:992px){
+    .md-hidden{display: block;}
+    .xs-hidden{display: none;}
+    
+}
+@media (max-width:991px){
+    .md-hidden{display: none;}
+    .xs-hidden{display: block;}
+}
+
+/******************* New  Arrivals ***************************/
+.newArrivals .card{
+    border:.1rem solid rgba(151, 150, 150, 0.719);
+    padding: 0;
+}
+.card-body{background-color: #bebdbd;margin-top: 2rem;}
+
+
+/****************************customar*********************/
+.customar{padding: 2rem; background-color: #000000f3;position: relative; color: white;}
+.customar>div{z-index: 66;position: relative;}
+.customar p{margin: 3rem;}
+.customar .overlay{background-color: #000000cb;position: absolute;z-index: 55;width: 100w;height: 100h;}
+.accordion-item,.accordion-button,.accordion-button:active{
+    border: none;
+    background-color: transparent;
+    color: white;}
+    .accordion-item{
+    border-bottom: .1rem solid white;
+
+    }
+
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/*******************footer****************/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 5rem;
+    font-size: bolder;
+}
+footer ul{
+    list-style: none;
+}
+footer  li{display: inline;}
